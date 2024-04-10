@@ -9,27 +9,23 @@ p {
 
 /* ------------------PCスタイル------------------ */
 @media screen and (min-width: 768px) {
-
     /* -----PC全体スタイル----- */
     body {
         max-width: 1080px;
         min-width: 980px;
         margin: 20px auto 100px auto
     }
-
     /* -----メイン画像スタイル----- */
     #main-image {
         height: 100%;
         width: 100%;
         max-width: 1080px;
     }
-
         /* -----ヘッダー----- */
     header {
         display: flex;
         justify-content: space-between;
     }
-
         /* -----PCナビ----- */
     #nav-pc {
         font-size: 15px;
@@ -58,23 +54,19 @@ p {
     }
 }
 
-
 /* ------------------スマホスタイル------------------ */
 @media screen and (max-width: 767px) {
-
     /* -----スマホ全体スタイル----- */
     body {
         min-width: 375px;
         margin: 0;
     }
-
     /* -----メイン画像スタイル----- */
     #main-image {
         height: 100%;
          width: 100%;
          min-width: 375px;
     }
-
      /* -----PCナビ----- */
     #nav-pc {
         display: none;
@@ -93,7 +85,6 @@ p {
         display: none;
         z-index: 100;
     }
-
     #close {
         position: absolute;
         top: 20px;
@@ -130,29 +121,4 @@ p {
         background-repeat: no-repeat;
         background-position: right top;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
